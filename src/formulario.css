@@ -1,0 +1,33 @@
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select, input[type="text"], input[type="datetime-local"], input[type="checkbox"], input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#response {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#response p {
+    margin: 0;
+}
